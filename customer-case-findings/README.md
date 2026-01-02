@@ -1,0 +1,1 @@
+$(cat /home/user/customer-case-findings/README.md | base64 -w 0)
