@@ -1,0 +1,1 @@
+{"severity":"HIGH","root_causes":[{"cause":"WPA3-SAE Authentication Incompatibility","recommendation":"Downgrade to WPA2-PSK or update client firmware"},{"cause":"Signal Strength Degradation","recommendation":"Relocate router or add access point"}]}
