@@ -1,0 +1,7 @@
+{
+  "avg_session_duration_sec": 18256.777777777777,
+  "median_session_duration_sec": 17887.0,
+  "avg_reconnect_delay_sec": 4.585473684210526,
+  "median_reconnect_delay_sec": 3.456,
+  "counts_by_reason": {"DEAUTH_LEAVING": 5, "BEACON_LOSS": 4, "DISASSOC_LOW_RSSI": 3, "CHANNEL_SWITCH_DISCONNECT": 2, "DISASSOC_DUE_TO_INACTIVITY": 1, "DISASSOC_AP_BUSY": 1}
+}
