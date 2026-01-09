@@ -1,0 +1,82 @@
+{
+  "failures": [
+    {
+      "timestamp": "2024-12-27T09:24:01.332000",
+      "type": "wpa3_sae_failure",
+      "status": null,
+      "group": null,
+      "mac": null,
+      "level": "ERROR",
+      "raw": "WPA3-SAE handshake failed: anti-clogging token mismatch (client: MacBook-Pro-Dev)"
+    },
+    {
+      "timestamp": "2024-12-27T13:45:11.332000",
+      "type": "wpa3_sae_failure",
+      "status": null,
+      "group": null,
+      "mac": null,
+      "level": "ERROR",
+      "raw": "WPA3-SAE handshake failed: commit message timeout (client: Samsung-Galaxy-S23)"
+    },
+    {
+      "timestamp": "2024-12-27T13:45:12.445000",
+      "type": "wpa3_sae_failure",
+      "status": null,
+      "group": null,
+      "mac": null,
+      "level": "ERROR",
+      "raw": "WPA3-SAE handshake failed: confirm message invalid (client: Samsung-Galaxy-S23)"
+    },
+    {
+      "timestamp": "2024-12-27T13:45:13.221000",
+      "type": "wpa3_sae_failure",
+      "status": null,
+      "group": null,
+      "mac": null,
+      "level": "ERROR",
+      "raw": "WPA3-SAE handshake failed: max retries exceeded (client: Samsung-Galaxy-S23)"
+    },
+    {
+      "timestamp": "2024-12-27T17:12:33.112000",
+      "type": "wpa3_sae_failure",
+      "status": null,
+      "group": null,
+      "mac": null,
+      "level": "ERROR",
+      "raw": "WPA3-SAE handshake failed: PMK derivation error (client: HP-Printer)"
+    },
+    {
+      "timestamp": "2024-12-27T17:12:33.889000",
+      "type": "wpa3_sae_failure",
+      "status": null,
+      "group": null,
+      "mac": null,
+      "level": "ERROR",
+      "raw": "WPA3-SAE handshake failed: incompatible group (client: HP-Printer)"
+    },
+    {
+      "timestamp": "2024-12-27T20:33:22.445000",
+      "type": "wpa3_sae_failure",
+      "status": null,
+      "group": null,
+      "mac": null,
+      "level": "ERROR",
+      "raw": "WPA3-SAE handshake failed: anti-clogging token mismatch (client: iPhone-Sarah)"
+    },
+    {
+      "timestamp": "2024-12-27T20:33:23.112000",
+      "type": "wpa3_sae_failure",
+      "status": null,
+      "group": null,
+      "mac": null,
+      "level": "ERROR",
+      "raw": "WPA3-SAE handshake failed: commit message timeout (client: iPhone-Sarah)"
+    }
+  ],
+  "summary": {
+    "by_status": {},
+    "by_group": {},
+    "by_mac": {},
+    "total_failures": 8
+  }
+}
