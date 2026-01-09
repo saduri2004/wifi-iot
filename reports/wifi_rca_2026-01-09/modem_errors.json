@@ -1,0 +1,170 @@
+{
+  "disconnections": [
+    {
+      "timestamp": "2024-12-27T11:02:44.221000",
+      "level": "ERROR",
+      "type": "disconnection",
+      "client": "iPad-Kitchen",
+      "mac": "8C:85:90:12:FF:E3",
+      "reason": "DEAUTH_LEAVING",
+      "rssi": -81
+    },
+    {
+      "timestamp": "2024-12-27T12:18:34.445000",
+      "level": "ERROR",
+      "type": "disconnection",
+      "client": "Ring-Doorbell",
+      "mac": "F4:5C:89:AA:12:77",
+      "reason": "BEACON_LOSS",
+      "rssi": -74
+    },
+    {
+      "timestamp": "2024-12-27T12:18:35.112000",
+      "level": "ERROR",
+      "type": "disconnection",
+      "client": "Nest-Thermostat",
+      "mac": "64:16:66:C3:21:EE",
+      "reason": "BEACON_LOSS",
+      "rssi": -76
+    },
+    {
+      "timestamp": "2024-12-27T14:22:09.332000",
+      "level": "ERROR",
+      "type": "disconnection",
+      "client": "MacBook-Pro-Dev",
+      "mac": "3C:22:FB:91:AA:07",
+      "reason": "DISASSOC_LOW_RSSI",
+      "rssi": -82
+    },
+    {
+      "timestamp": "2024-12-27T15:33:45.445000",
+      "level": "ERROR",
+      "type": "disconnection",
+      "client": "iPhone-Sarah",
+      "mac": "A4:83:E7:2F:11:B9",
+      "reason": "DEAUTH_LEAVING",
+      "rssi": -77
+    },
+    {
+      "timestamp": "2024-12-27T15:33:46.112000",
+      "level": "ERROR",
+      "type": "disconnection",
+      "client": "Apple-TV",
+      "mac": "F0:18:98:33:C2:11",
+      "reason": "DEAUTH_LEAVING",
+      "rssi": -71
+    },
+    {
+      "timestamp": "2024-12-27T18:22:44.221000",
+      "level": "ERROR",
+      "type": "disconnection",
+      "client": "MacBook-Pro-Dev",
+      "mac": "3C:22:FB:91:AA:07",
+      "reason": "DISASSOC_AP_BUSY",
+      "rssi": -69
+    },
+    {
+      "timestamp": "2024-12-27T19:45:11.001000",
+      "level": "ERROR",
+      "type": "disconnection",
+      "client": "iPad-Kitchen",
+      "mac": "8C:85:90:12:FF:E3",
+      "reason": "DEAUTH_LEAVING",
+      "rssi": -79
+    },
+    {
+      "timestamp": "2024-12-27T19:45:12.112000",
+      "level": "ERROR",
+      "type": "disconnection",
+      "client": "Ring-Doorbell",
+      "mac": "F4:5C:89:AA:12:77",
+      "reason": "BEACON_LOSS",
+      "rssi": -83
+    },
+    {
+      "timestamp": "2024-12-27T19:45:12.889000",
+      "level": "ERROR",
+      "type": "disconnection",
+      "client": "Nest-Thermostat",
+      "mac": "64:16:66:C3:21:EE",
+      "reason": "BEACON_LOSS",
+      "rssi": -85
+    },
+    {
+      "timestamp": "2024-12-27T22:45:33.221000",
+      "level": "ERROR",
+      "type": "disconnection",
+      "client": "MacBook-Pro-Dev",
+      "mac": "3C:22:FB:91:AA:07",
+      "reason": "DISASSOC_LOW_RSSI",
+      "rssi": -84
+    },
+    {
+      "timestamp": "2024-12-27T22:45:34.001000",
+      "level": "ERROR",
+      "type": "disconnection",
+      "client": "iPhone-Sarah",
+      "mac": "A4:83:E7:2F:11:B9",
+      "reason": "DISASSOC_LOW_RSSI",
+      "rssi": -81
+    }
+  ],
+  "channel_switches": [
+    {
+      "timestamp": "2024-12-27T10:45:22.889000",
+      "type": "channel_switch",
+      "from_channel": null,
+      "to_channel": null,
+      "level": "INFO",
+      "raw": "Initiating DFS scan for channel selection..."
+    },
+    {
+      "timestamp": "2024-12-27T10:45:28.332000",
+      "type": "channel_switch",
+      "from_channel": null,
+      "to_channel": null,
+      "level": "INFO",
+      "raw": "Channel switch: 149 -> 157 (5GHz band)"
+    },
+    {
+      "timestamp": "2024-12-27T16:45:23.332000",
+      "type": "channel_switch",
+      "from_channel": null,
+      "to_channel": null,
+      "level": "INFO",
+      "raw": "Channel switch evaluation initiated"
+    },
+    {
+      "timestamp": "2024-12-27T16:45:28.667000",
+      "type": "channel_switch",
+      "from_channel": null,
+      "to_channel": null,
+      "level": "INFO",
+      "raw": "Channel switch: 157 -> 36 (5GHz band, DFS-free)"
+    },
+    {
+      "timestamp": "2024-12-27T21:15:45.332000",
+      "type": "channel_switch",
+      "from_channel": null,
+      "to_channel": null,
+      "level": "DEBUG",
+      "raw": "Radar pulse detected - DFS channel 52 unavailable"
+    },
+    {
+      "timestamp": "2024-12-27T21:15:46.001000",
+      "type": "channel_switch",
+      "from_channel": null,
+      "to_channel": null,
+      "level": "INFO",
+      "raw": "Channel switch: 36 -> 44 (5GHz band)"
+    },
+    {
+      "timestamp": "2024-12-27T23:22:11.448000",
+      "type": "channel_switch",
+      "from_channel": null,
+      "to_channel": null,
+      "level": "INFO",
+      "raw": "Channel switches: 4"
+    }
+  ]
+}
