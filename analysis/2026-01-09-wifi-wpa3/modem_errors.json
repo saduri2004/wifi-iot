@@ -1,0 +1,153 @@
+[
+  {
+    "timestamp": "2024-12-27T09:23:17.882000",
+    "event": "RSSI_DEGRADATION",
+    "level": "WARN",
+    "details": {
+      "from_dbm": -72,
+      "to_dbm": -78,
+      "client": "iPhone-Sarah"
+    },
+    "raw": "RSSI degradation detected: -72dBm -> -78dBm (client: iPhone-Sarah)"
+  },
+  {
+    "timestamp": "2024-12-27T09:24:01.332000",
+    "event": "WPA3_HANDSHAKE_FAILURE",
+    "level": "ERROR",
+    "details": {
+      "reason": "anti-clogging token mismatch (client: MacBook-Pro-Dev)",
+      "client": "MacBook-Pro-Dev"
+    },
+    "raw": "WPA3-SAE handshake failed: anti-clogging token mismatch (client: MacBook-Pro-Dev)"
+  },
+  {
+    "timestamp": "2024-12-27T09:24:02.891000",
+    "event": "WPA3_HANDSHAKE_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "client": "MacBook-Pro-Dev"
+    },
+    "raw": "WPA3-SAE handshake successful after retry (client: MacBook-Pro-Dev)"
+  },
+  {
+    "timestamp": "2024-12-27T10:45:22.112000",
+    "event": "CHANNEL_INTERFERENCE",
+    "level": "WARN",
+    "details": {
+      "channel": 149,
+      "neighbor_count": 7
+    },
+    "raw": "Channel interference detected on 5GHz ch149. Neighboring AP count: 7"
+  },
+  {
+    "timestamp": "2024-12-27T10:45:22.889000",
+    "event": "CHANNEL_INTERFERENCE",
+    "level": "INFO",
+    "details": {},
+    "raw": "Initiating DFS scan for channel selection..."
+  },
+  {
+    "timestamp": "2024-12-27T13:45:11.332000",
+    "event": "WPA3_HANDSHAKE_FAILURE",
+    "level": "ERROR",
+    "details": {
+      "reason": "commit message timeout (client: Samsung-Galaxy-S23)",
+      "client": "Samsung-Galaxy-S23"
+    },
+    "raw": "WPA3-SAE handshake failed: commit message timeout (client: Samsung-Galaxy-S23)"
+  },
+  {
+    "timestamp": "2024-12-27T13:45:12.445000",
+    "event": "WPA3_HANDSHAKE_FAILURE",
+    "level": "ERROR",
+    "details": {
+      "reason": "confirm message invalid (client: Samsung-Galaxy-S23)",
+      "client": "Samsung-Galaxy-S23"
+    },
+    "raw": "WPA3-SAE handshake failed: confirm message invalid (client: Samsung-Galaxy-S23)"
+  },
+  {
+    "timestamp": "2024-12-27T13:45:13.221000",
+    "event": "WPA3_HANDSHAKE_FAILURE",
+    "level": "ERROR",
+    "details": {
+      "reason": "max retries exceeded (client: Samsung-Galaxy-S23)",
+      "client": "Samsung-Galaxy-S23"
+    },
+    "raw": "WPA3-SAE handshake failed: max retries exceeded (client: Samsung-Galaxy-S23)"
+  },
+  {
+    "timestamp": "2024-12-27T14:22:08.112000",
+    "event": "RSSI_DEGRADATION",
+    "level": "WARN",
+    "details": {
+      "from_dbm": -68,
+      "to_dbm": -79,
+      "client": "MacBook-Pro-Dev"
+    },
+    "raw": "RSSI degradation detected: -68dBm -> -79dBm (client: MacBook-Pro-Dev)"
+  },
+  {
+    "timestamp": "2024-12-27T16:45:28.667000",
+    "event": "CHANNEL_INTERFERENCE",
+    "level": "INFO",
+    "details": {},
+    "raw": "Channel switch: 157 -> 36 (5GHz band, DFS-free)"
+  },
+  {
+    "timestamp": "2024-12-27T17:12:33.112000",
+    "event": "WPA3_HANDSHAKE_FAILURE",
+    "level": "ERROR",
+    "details": {
+      "reason": "PMK derivation error (client: HP-Printer)",
+      "client": "HP-Printer"
+    },
+    "raw": "WPA3-SAE handshake failed: PMK derivation error (client: HP-Printer)"
+  },
+  {
+    "timestamp": "2024-12-27T17:12:33.889000",
+    "event": "WPA3_HANDSHAKE_FAILURE",
+    "level": "ERROR",
+    "details": {
+      "reason": "incompatible group (client: HP-Printer)",
+      "client": "HP-Printer"
+    },
+    "raw": "WPA3-SAE handshake failed: incompatible group (client: HP-Printer)"
+  },
+  {
+    "timestamp": "2024-12-27T20:33:22.445000",
+    "event": "WPA3_HANDSHAKE_FAILURE",
+    "level": "ERROR",
+    "details": {
+      "reason": "anti-clogging token mismatch (client: iPhone-Sarah)",
+      "client": "iPhone-Sarah"
+    },
+    "raw": "WPA3-SAE handshake failed: anti-clogging token mismatch (client: iPhone-Sarah)"
+  },
+  {
+    "timestamp": "2024-12-27T20:33:23.112000",
+    "event": "WPA3_HANDSHAKE_FAILURE",
+    "level": "ERROR",
+    "details": {
+      "reason": "commit message timeout (client: iPhone-Sarah)",
+      "client": "iPhone-Sarah"
+    },
+    "raw": "WPA3-SAE handshake failed: commit message timeout (client: iPhone-Sarah)"
+  },
+  {
+    "timestamp": "2024-12-27T20:33:24.001000",
+    "event": "WPA3_HANDSHAKE_SUCCESS",
+    "level": "INFO",
+    "details": {
+      "client": "iPhone-Sarah"
+    },
+    "raw": "WPA3-SAE handshake successful after 3 attempts (client: iPhone-Sarah)"
+  },
+  {
+    "timestamp": "2024-12-27T21:15:45.332000",
+    "event": "CHANNEL_INTERFERENCE",
+    "level": "DEBUG",
+    "details": {},
+    "raw": "Radar pulse detected - DFS channel 52 unavailable"
+  }
+]
