@@ -1,0 +1,168 @@
+{
+  "events": [
+    {
+      "idx": 0,
+      "timestamp": "2024-12-27T09:23:17.882000",
+      "source": "modem",
+      "features": [
+        6.0,
+        0.0,
+        0.0,
+        -6.0
+      ],
+      "isolation_forest_label": -1,
+      "anomaly_score": -0.12975912275537171,
+      "dbscan_label": -1
+    },
+    {
+      "idx": 1,
+      "timestamp": "2024-12-27T09:24:01.332000",
+      "source": "modem",
+      "features": [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "isolation_forest_label": 1,
+      "anomaly_score": 0.11943988874916295,
+      "dbscan_label": 0
+    },
+    {
+      "idx": 2,
+      "timestamp": "2024-12-27T09:24:02.891000",
+      "source": "modem",
+      "features": [
+        2.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "isolation_forest_label": 1,
+      "anomaly_score": 0.030201531681416482,
+      "dbscan_label": 0
+    },
+    {
+      "idx": 3,
+      "timestamp": "2024-12-27T10:45:22.112000",
+      "source": "modem",
+      "features": [
+        4.0,
+        149.0,
+        7.0,
+        0.0
+      ],
+      "isolation_forest_label": -1,
+      "anomaly_score": -0.23148185059221016,
+      "dbscan_label": -1
+    },
+    {
+      "idx": 4,
+      "timestamp": "2024-12-27T10:45:22.889000",
+      "source": "modem",
+      "features": [
+        4.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "isolation_forest_label": 1,
+      "anomaly_score": 0.02823378695823403,
+      "dbscan_label": 0
+    },
+    {
+      "idx": 5,
+      "timestamp": "2024-12-27T13:45:11.332000",
+      "source": "modem",
+      "features": [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "isolation_forest_label": 1,
+      "anomaly_score": 0.11943988874916295,
+      "dbscan_label": 0
+    },
+    {
+      "idx": 6,
+      "timestamp": "2024-12-27T13:45:12.445000",
+      "source": "modem",
+      "features": [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "isolation_forest_label": 1,
+      "anomaly_score": 0.11943988874916295,
+      "dbscan_label": 0
+    },
+    {
+      "idx": 7,
+      "timestamp": "2024-12-27T13:45:13.221000",
+      "source": "modem",
+      "features": [
+        3.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "isolation_forest_label": 1,
+      "anomaly_score": 0.11943988874916295,
+      "dbscan_label": 0
+    },
+    {
+      "idx": 8,
+      "timestamp": "2024-12-27T14:22:08.112000",
+      "source": "modem",
+      "features": [
+        6.0,
+        0.0,
+        0.0,
+        -11.0
+      ],
+      "isolation_forest_label": -1,
+      "anomaly_score": -0.1694836115248084,
+      "dbscan_label": -1
+    },
+    {
+      "idx": 9,
+      "timestamp": "2024-12-27T16:45:28.667000",
+      "source": "modem",
+      "features": [
+        4.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "isolation_forest_label": 1,
+      "anomaly_score": 0.02823378695823403,
+      "dbscan_label": 0
+    }
+  ],
+  "model_params": {
+    "isolation_forest": {
+      "n_estimators": 200,
+      "contamination": "auto"
+    },
+    "dbscan": {
+      "eps": 0.8,
+      "min_samples": 2
+    },
+    "scaler": {
+      "mean_": [
+        1.7297297297297298,
+        50.648648648648646,
+        0.972972972972973,
+        1.3513513513513513
+      ],
+      "scale_": [
+        1.7498826006744477,
+        64.55972144695937,
+        1.3045965822861807,
+        4.777289835654679
+      ]
+    }
+  }
+}
