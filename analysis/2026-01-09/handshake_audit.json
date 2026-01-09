@@ -1,0 +1,88 @@
+{
+  "total_handshake_related": 15,
+  "subtype_counts": {
+    "info": 6,
+    "anti_clogging": 3,
+    "success": 2,
+    "commit_timeout": 2,
+    "confirm_invalid": 1,
+    "pmk_error": 1
+  },
+  "events": [
+    {
+      "timestamp": "2024-12-27 08:15:35.001",
+      "subtype": "info",
+      "details": "[2024-12-27 08:15:35.001] [INFO] WPA3-SAE authentication enabled on all interfaces"
+    },
+    {
+      "timestamp": "2024-12-27 09:24:01.332",
+      "subtype": "anti_clogging",
+      "details": "[2024-12-27 09:24:01.332] [ERROR] WPA3-SAE handshake failed: anti-clogging token mismatch (client: MacBook-Pro-Dev)"
+    },
+    {
+      "timestamp": "2024-12-27 09:24:01.445",
+      "subtype": "info",
+      "details": "[2024-12-27 09:24:01.445] [WARN] Retrying SAE authentication for client 3C:22:FB:91:AA:07"
+    },
+    {
+      "timestamp": "2024-12-27 09:24:02.891",
+      "subtype": "success",
+      "details": "[2024-12-27 09:24:02.891] [INFO] WPA3-SAE handshake successful after retry (client: MacBook-Pro-Dev)"
+    },
+    {
+      "timestamp": "2024-12-27 13:45:11.332",
+      "subtype": "commit_timeout",
+      "details": "[2024-12-27 13:45:11.332] [ERROR] WPA3-SAE handshake failed: commit message timeout (client: Samsung-Galaxy-S23)"
+    },
+    {
+      "timestamp": "2024-12-27 13:45:12.001",
+      "subtype": "anti_clogging",
+      "details": "[2024-12-27 13:45:12.001] [WARN] SAE anti-clogging mechanism activated - high authentication load"
+    },
+    {
+      "timestamp": "2024-12-27 13:45:12.445",
+      "subtype": "confirm_invalid",
+      "details": "[2024-12-27 13:45:12.445] [ERROR] WPA3-SAE handshake failed: confirm message invalid (client: Samsung-Galaxy-S23)"
+    },
+    {
+      "timestamp": "2024-12-27 13:45:13.221",
+      "subtype": "info",
+      "details": "[2024-12-27 13:45:13.221] [ERROR] WPA3-SAE handshake failed: max retries exceeded (client: Samsung-Galaxy-S23)"
+    },
+    {
+      "timestamp": "2024-12-27 17:12:33.112",
+      "subtype": "pmk_error",
+      "details": "[2024-12-27 17:12:33.112] [ERROR] WPA3-SAE handshake failed: PMK derivation error (client: HP-Printer)"
+    },
+    {
+      "timestamp": "2024-12-27 17:12:33.889",
+      "subtype": "info",
+      "details": "[2024-12-27 17:12:33.889] [ERROR] WPA3-SAE handshake failed: incompatible group (client: HP-Printer)"
+    },
+    {
+      "timestamp": "2024-12-27 17:12:34.667",
+      "subtype": "info",
+      "details": "[2024-12-27 17:12:34.667] [INFO] Device HP-Printer does not support WPA3 - adding to legacy list"
+    },
+    {
+      "timestamp": "2024-12-27 20:33:22.445",
+      "subtype": "anti_clogging",
+      "details": "[2024-12-27 20:33:22.445] [ERROR] WPA3-SAE handshake failed: anti-clogging token mismatch (client: iPhone-Sarah)"
+    },
+    {
+      "timestamp": "2024-12-27 20:33:23.112",
+      "subtype": "commit_timeout",
+      "details": "[2024-12-27 20:33:23.112] [ERROR] WPA3-SAE handshake failed: commit message timeout (client: iPhone-Sarah)"
+    },
+    {
+      "timestamp": "2024-12-27 20:33:24.001",
+      "subtype": "success",
+      "details": "[2024-12-27 20:33:24.001] [INFO] WPA3-SAE handshake successful after 3 attempts (client: iPhone-Sarah)"
+    },
+    {
+      "timestamp": "2024-12-27 23:22:11.447",
+      "subtype": "info",
+      "details": "[2024-12-27 23:22:11.447] [INFO]   WPA3 handshake failures: 9"
+    }
+  ]
+}
