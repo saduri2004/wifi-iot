@@ -1,0 +1,8 @@
+{
+  "reconnect_delays_25_40s": [],
+  "disconnects_after_120_180s": [],
+  "counts": {
+    "reconnect_delays": 0,
+    "drop_2_3_min": 0
+  }
+}
