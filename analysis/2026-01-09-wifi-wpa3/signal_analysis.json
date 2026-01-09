@@ -1,0 +1,20 @@
+{
+  "average_rssi_5ghz": -70.58823529411765,
+  "channel_usage_5ghz": {
+    "149": 11,
+    "157": 10,
+    "36": 10,
+    "44": 3
+  },
+  "degradations": [
+    {
+      "device_mac": "3C:22:FB:91:AA:07",
+      "from_dbm": -74,
+      "to_dbm": -79,
+      "delta_db": -5,
+      "from_time": "2024-12-27T12:30:15",
+      "to_time": "2024-12-27T12:45:15",
+      "channel": 157
+    }
+  ]
+}
