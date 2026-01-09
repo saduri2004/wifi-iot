@@ -1,0 +1,40 @@
+{
+  "features_used": [
+    "timestamp",
+    "device_mac",
+    "event_type",
+    "channel",
+    "rssi",
+    "reason_code",
+    "auth_method",
+    "reconnect_time_ms",
+    "sig_rssi",
+    "sig_util",
+    "sig_retry",
+    "iso_label",
+    "db_label"
+  ],
+  "row_count": 13,
+  "clusters": [
+    {
+      "cluster_id": -1,
+      "count": 8,
+      "avg_rssi": -76.125,
+      "avg_util": 51.625,
+      "avg_retry": 3.8875,
+      "iso_anomaly_frac": 0.75
+    },
+    {
+      "cluster_id": 0,
+      "count": 5,
+      "avg_rssi": -72.8,
+      "avg_util": 57.8,
+      "avg_retry": 6.199999999999999,
+      "iso_anomaly_frac": 0.0
+    }
+  ],
+  "model_weights": {
+    "isolation_forest_weight": 0.6,
+    "dbscan_weight": 0.4
+  }
+}
