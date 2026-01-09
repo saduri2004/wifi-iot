@@ -1,0 +1,212 @@
+[
+  {
+    "timestamp": "2024-12-27T08:12:47",
+    "device_mac": "3C:22:FB:91:AA:07",
+    "device_name": "MacBook-Pro-Dev",
+    "event_type": "CONNECTION",
+    "reason_code": 0,
+    "reason_description": "SUCCESSFUL_ASSOCIATION",
+    "auth_attempts": 1,
+    "channel": 149
+  },
+  {
+    "timestamp": "2024-12-27T09:24:01",
+    "device_mac": "3C:22:FB:91:AA:07",
+    "device_name": "MacBook-Pro-Dev",
+    "event_type": "AUTH_FAILURE",
+    "reason_code": 16,
+    "reason_description": "WPA3_SAE_ANTICLOG_TOKEN_MISMATCH",
+    "auth_attempts": 1,
+    "channel": 149
+  },
+  {
+    "timestamp": "2024-12-27T09:24:02",
+    "device_mac": "3C:22:FB:91:AA:07",
+    "device_name": "MacBook-Pro-Dev",
+    "event_type": "CONNECTION",
+    "reason_code": 0,
+    "reason_description": "SUCCESSFUL_ASSOCIATION",
+    "auth_attempts": 2,
+    "channel": 149
+  },
+  {
+    "timestamp": "2024-12-27T10:45:31",
+    "device_mac": "A4:83:E7:2F:11:B9",
+    "device_name": "iPhone-Sarah",
+    "event_type": "CONNECTION",
+    "reason_code": 0,
+    "reason_description": "SUCCESSFUL_ASSOCIATION",
+    "auth_attempts": 1,
+    "channel": 157
+  },
+  {
+    "timestamp": "2024-12-27T11:02:47",
+    "device_mac": "8C:85:90:12:FF:E3",
+    "device_name": "iPad-Kitchen",
+    "event_type": "CONNECTION",
+    "reason_code": 0,
+    "reason_description": "SUCCESSFUL_ASSOCIATION",
+    "auth_attempts": 1,
+    "channel": 6
+  },
+  {
+    "timestamp": "2024-12-27T13:45:11",
+    "device_mac": "E8:9F:80:12:34:56",
+    "device_name": "Samsung-Galaxy-S23",
+    "event_type": "AUTH_FAILURE",
+    "reason_code": 16,
+    "reason_description": "WPA3_SAE_COMMIT_TIMEOUT",
+    "auth_attempts": 1,
+    "channel": 157
+  },
+  {
+    "timestamp": "2024-12-27T13:45:12",
+    "device_mac": "E8:9F:80:12:34:56",
+    "device_name": "Samsung-Galaxy-S23",
+    "event_type": "AUTH_FAILURE",
+    "reason_code": 17,
+    "reason_description": "WPA3_SAE_CONFIRM_INVALID",
+    "auth_attempts": 2,
+    "channel": 157
+  },
+  {
+    "timestamp": "2024-12-27T13:45:13",
+    "device_mac": "E8:9F:80:12:34:56",
+    "device_name": "Samsung-Galaxy-S23",
+    "event_type": "AUTH_FAILURE",
+    "reason_code": 18,
+    "reason_description": "WPA3_SAE_MAX_RETRIES_EXCEEDED",
+    "auth_attempts": 3,
+    "channel": 157
+  },
+  {
+    "timestamp": "2024-12-27T15:33:51",
+    "device_mac": "A4:83:E7:2F:11:B9",
+    "device_name": "iPhone-Sarah",
+    "event_type": "CONNECTION",
+    "reason_code": 0,
+    "reason_description": "SUCCESSFUL_ASSOCIATION",
+    "auth_attempts": 1,
+    "channel": 157
+  },
+  {
+    "timestamp": "2024-12-27T15:33:53",
+    "device_mac": "F0:18:98:33:C2:11",
+    "device_name": "Apple-TV",
+    "event_type": "CONNECTION",
+    "reason_code": 0,
+    "reason_description": "SUCCESSFUL_ASSOCIATION",
+    "auth_attempts": 1,
+    "channel": 157
+  },
+  {
+    "timestamp": "2024-12-27T16:45:34",
+    "device_mac": "8C:85:90:12:FF:E3",
+    "device_name": "iPad-Kitchen",
+    "event_type": "CONNECTION",
+    "reason_code": 0,
+    "reason_description": "SUCCESSFUL_ASSOCIATION",
+    "auth_attempts": 1,
+    "channel": 36
+  },
+  {
+    "timestamp": "2024-12-27T17:12:33",
+    "device_mac": "B4:E6:2D:AA:BB:CC",
+    "device_name": "HP-Printer",
+    "event_type": "AUTH_FAILURE",
+    "reason_code": 19,
+    "reason_description": "WPA3_SAE_PMK_DERIVATION_ERROR",
+    "auth_attempts": 1,
+    "channel": 6
+  },
+  {
+    "timestamp": "2024-12-27T17:12:34",
+    "device_mac": "B4:E6:2D:AA:BB:CC",
+    "device_name": "HP-Printer",
+    "event_type": "AUTH_FAILURE",
+    "reason_code": 20,
+    "reason_description": "WPA3_SAE_INCOMPATIBLE_GROUP",
+    "auth_attempts": 2,
+    "channel": 6
+  },
+  {
+    "timestamp": "2024-12-27T18:22:48",
+    "device_mac": "3C:22:FB:91:AA:07",
+    "device_name": "MacBook-Pro-Dev",
+    "event_type": "CONNECTION",
+    "reason_code": 0,
+    "reason_description": "SUCCESSFUL_ASSOCIATION",
+    "auth_attempts": 1,
+    "channel": 36
+  },
+  {
+    "timestamp": "2024-12-27T19:45:19",
+    "device_mac": "8C:85:90:12:FF:E3",
+    "device_name": "iPad-Kitchen",
+    "event_type": "CONNECTION",
+    "reason_code": 0,
+    "reason_description": "SUCCESSFUL_ASSOCIATION",
+    "auth_attempts": 1,
+    "channel": 6
+  },
+  {
+    "timestamp": "2024-12-27T20:33:22",
+    "device_mac": "A4:83:E7:2F:11:B9",
+    "device_name": "iPhone-Sarah",
+    "event_type": "AUTH_FAILURE",
+    "reason_code": 16,
+    "reason_description": "WPA3_SAE_ANTICLOG_TOKEN_MISMATCH",
+    "auth_attempts": 1,
+    "channel": 36
+  },
+  {
+    "timestamp": "2024-12-27T20:33:23",
+    "device_mac": "A4:83:E7:2F:11:B9",
+    "device_name": "iPhone-Sarah",
+    "event_type": "AUTH_FAILURE",
+    "reason_code": 16,
+    "reason_description": "WPA3_SAE_COMMIT_TIMEOUT",
+    "auth_attempts": 2,
+    "channel": 36
+  },
+  {
+    "timestamp": "2024-12-27T20:33:24",
+    "device_mac": "A4:83:E7:2F:11:B9",
+    "device_name": "iPhone-Sarah",
+    "event_type": "CONNECTION",
+    "reason_code": 0,
+    "reason_description": "SUCCESSFUL_ASSOCIATION",
+    "auth_attempts": 3,
+    "channel": 36
+  },
+  {
+    "timestamp": "2024-12-27T21:15:50",
+    "device_mac": "F0:18:98:33:C2:11",
+    "device_name": "Apple-TV",
+    "event_type": "CONNECTION",
+    "reason_code": 0,
+    "reason_description": "SUCCESSFUL_ASSOCIATION",
+    "auth_attempts": 1,
+    "channel": 44
+  },
+  {
+    "timestamp": "2024-12-27T22:45:39",
+    "device_mac": "3C:22:FB:91:AA:07",
+    "device_name": "MacBook-Pro-Dev",
+    "event_type": "CONNECTION",
+    "reason_code": 0,
+    "reason_description": "SUCCESSFUL_ASSOCIATION",
+    "auth_attempts": 1,
+    "channel": 44
+  },
+  {
+    "timestamp": "2024-12-27T22:45:42",
+    "device_mac": "A4:83:E7:2F:11:B9",
+    "device_name": "iPhone-Sarah",
+    "event_type": "CONNECTION",
+    "reason_code": 0,
+    "reason_description": "SUCCESSFUL_ASSOCIATION",
+    "auth_attempts": 1,
+    "channel": 44
+  }
+]
