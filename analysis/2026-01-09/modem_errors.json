@@ -1,0 +1,180 @@
+{
+  "records": [
+    {
+      "timestamp": "2024-12-27 08:15:35.001",
+      "event_type": "wpa3_failure",
+      "details": "[2024-12-27 08:15:35.001] [INFO] WPA3-SAE authentication enabled on all interfaces"
+    },
+    {
+      "timestamp": "2024-12-27 09:24:01.332",
+      "event_type": "wpa3_failure",
+      "details": "[2024-12-27 09:24:01.332] [ERROR] WPA3-SAE handshake failed: anti-clogging token mismatch (client: MacBook-Pro-Dev)"
+    },
+    {
+      "timestamp": "2024-12-27 09:24:02.891",
+      "event_type": "wpa3_failure",
+      "details": "[2024-12-27 09:24:02.891] [INFO] WPA3-SAE handshake successful after retry (client: MacBook-Pro-Dev)"
+    },
+    {
+      "timestamp": "2024-12-27 10:45:22.889",
+      "event_type": "channel_switch",
+      "details": "[2024-12-27 10:45:22.889] [INFO] Initiating DFS scan for channel selection..."
+    },
+    {
+      "timestamp": "2024-12-27 10:45:28.332",
+      "event_type": "channel_switch",
+      "details": "[2024-12-27 10:45:28.332] [INFO] Channel switch: 149 -> 157 (5GHz band)"
+    },
+    {
+      "timestamp": "2024-12-27 10:45:29.001",
+      "event_type": "channel_switch",
+      "details": "[2024-12-27 10:45:29.001] [WARN] Client disconnection during channel switch: 5 devices affected"
+    },
+    {
+      "timestamp": "2024-12-27 11:02:44.221",
+      "event_type": "disconnect",
+      "details": "[2024-12-27 11:02:44.221] [ERROR] DISCONNECTION_EVENT: client=iPad-Kitchen MAC=8C:85:90:12:FF:E3 reason=DEAUTH_LEAVING rssi=-81dBm"
+    },
+    {
+      "timestamp": "2024-12-27 12:18:34.445",
+      "event_type": "disconnect",
+      "details": "[2024-12-27 12:18:34.445] [ERROR] DISCONNECTION_EVENT: client=Ring-Doorbell MAC=F4:5C:89:AA:12:77 reason=BEACON_LOSS rssi=-74dBm"
+    },
+    {
+      "timestamp": "2024-12-27 12:18:35.112",
+      "event_type": "disconnect",
+      "details": "[2024-12-27 12:18:35.112] [ERROR] DISCONNECTION_EVENT: client=Nest-Thermostat MAC=64:16:66:C3:21:EE reason=BEACON_LOSS rssi=-76dBm"
+    },
+    {
+      "timestamp": "2024-12-27 13:45:11.332",
+      "event_type": "wpa3_failure",
+      "details": "[2024-12-27 13:45:11.332] [ERROR] WPA3-SAE handshake failed: commit message timeout (client: Samsung-Galaxy-S23)"
+    },
+    {
+      "timestamp": "2024-12-27 13:45:12.445",
+      "event_type": "wpa3_failure",
+      "details": "[2024-12-27 13:45:12.445] [ERROR] WPA3-SAE handshake failed: confirm message invalid (client: Samsung-Galaxy-S23)"
+    },
+    {
+      "timestamp": "2024-12-27 13:45:13.221",
+      "event_type": "wpa3_failure",
+      "details": "[2024-12-27 13:45:13.221] [ERROR] WPA3-SAE handshake failed: max retries exceeded (client: Samsung-Galaxy-S23)"
+    },
+    {
+      "timestamp": "2024-12-27 14:22:09.332",
+      "event_type": "disconnect",
+      "details": "[2024-12-27 14:22:09.332] [ERROR] DISCONNECTION_EVENT: client=MacBook-Pro-Dev MAC=3C:22:FB:91:AA:07 reason=DISASSOC_LOW_RSSI rssi=-82dBm"
+    },
+    {
+      "timestamp": "2024-12-27 15:33:45.445",
+      "event_type": "disconnect",
+      "details": "[2024-12-27 15:33:45.445] [ERROR] DISCONNECTION_EVENT: client=iPhone-Sarah MAC=A4:83:E7:2F:11:B9 reason=DEAUTH_LEAVING rssi=-77dBm"
+    },
+    {
+      "timestamp": "2024-12-27 15:33:46.112",
+      "event_type": "disconnect",
+      "details": "[2024-12-27 15:33:46.112] [ERROR] DISCONNECTION_EVENT: client=Apple-TV MAC=F0:18:98:33:C2:11 reason=DEAUTH_LEAVING rssi=-71dBm"
+    },
+    {
+      "timestamp": "2024-12-27 16:45:23.332",
+      "event_type": "channel_switch",
+      "details": "[2024-12-27 16:45:23.332] [INFO] Channel switch evaluation initiated"
+    },
+    {
+      "timestamp": "2024-12-27 16:45:28.667",
+      "event_type": "channel_switch",
+      "details": "[2024-12-27 16:45:28.667] [INFO] Channel switch: 157 -> 36 (5GHz band, DFS-free)"
+    },
+    {
+      "timestamp": "2024-12-27 16:45:29.445",
+      "event_type": "channel_switch",
+      "details": "[2024-12-27 16:45:29.445] [WARN] Client disconnection during channel switch: 3 devices affected"
+    },
+    {
+      "timestamp": "2024-12-27 17:12:33.112",
+      "event_type": "wpa3_failure",
+      "details": "[2024-12-27 17:12:33.112] [ERROR] WPA3-SAE handshake failed: PMK derivation error (client: HP-Printer)"
+    },
+    {
+      "timestamp": "2024-12-27 17:12:33.889",
+      "event_type": "wpa3_failure",
+      "details": "[2024-12-27 17:12:33.889] [ERROR] WPA3-SAE handshake failed: incompatible group (client: HP-Printer)"
+    },
+    {
+      "timestamp": "2024-12-27 17:12:34.667",
+      "event_type": "wpa3_failure",
+      "details": "[2024-12-27 17:12:34.667] [INFO] Device HP-Printer does not support WPA3 - adding to legacy list"
+    },
+    {
+      "timestamp": "2024-12-27 18:22:44.221",
+      "event_type": "disconnect",
+      "details": "[2024-12-27 18:22:44.221] [ERROR] DISCONNECTION_EVENT: client=MacBook-Pro-Dev MAC=3C:22:FB:91:AA:07 reason=DISASSOC_AP_BUSY rssi=-69dBm"
+    },
+    {
+      "timestamp": "2024-12-27 19:45:11.001",
+      "event_type": "disconnect",
+      "details": "[2024-12-27 19:45:11.001] [ERROR] DISCONNECTION_EVENT: client=iPad-Kitchen MAC=8C:85:90:12:FF:E3 reason=DEAUTH_LEAVING rssi=-79dBm"
+    },
+    {
+      "timestamp": "2024-12-27 19:45:12.112",
+      "event_type": "disconnect",
+      "details": "[2024-12-27 19:45:12.112] [ERROR] DISCONNECTION_EVENT: client=Ring-Doorbell MAC=F4:5C:89:AA:12:77 reason=BEACON_LOSS rssi=-83dBm"
+    },
+    {
+      "timestamp": "2024-12-27 19:45:12.889",
+      "event_type": "disconnect",
+      "details": "[2024-12-27 19:45:12.889] [ERROR] DISCONNECTION_EVENT: client=Nest-Thermostat MAC=64:16:66:C3:21:EE reason=BEACON_LOSS rssi=-85dBm"
+    },
+    {
+      "timestamp": "2024-12-27 20:33:22.445",
+      "event_type": "wpa3_failure",
+      "details": "[2024-12-27 20:33:22.445] [ERROR] WPA3-SAE handshake failed: anti-clogging token mismatch (client: iPhone-Sarah)"
+    },
+    {
+      "timestamp": "2024-12-27 20:33:23.112",
+      "event_type": "wpa3_failure",
+      "details": "[2024-12-27 20:33:23.112] [ERROR] WPA3-SAE handshake failed: commit message timeout (client: iPhone-Sarah)"
+    },
+    {
+      "timestamp": "2024-12-27 20:33:24.001",
+      "event_type": "wpa3_failure",
+      "details": "[2024-12-27 20:33:24.001] [INFO] WPA3-SAE handshake successful after 3 attempts (client: iPhone-Sarah)"
+    },
+    {
+      "timestamp": "2024-12-27 21:15:45.332",
+      "event_type": "channel_switch",
+      "details": "[2024-12-27 21:15:45.332] [DEBUG] Radar pulse detected - DFS channel 52 unavailable"
+    },
+    {
+      "timestamp": "2024-12-27 21:15:46.001",
+      "event_type": "channel_switch",
+      "details": "[2024-12-27 21:15:46.001] [INFO] Channel switch: 36 -> 44 (5GHz band)"
+    },
+    {
+      "timestamp": "2024-12-27 21:15:46.889",
+      "event_type": "channel_switch",
+      "details": "[2024-12-27 21:15:46.889] [WARN] Client disconnection during channel switch: 4 devices affected"
+    },
+    {
+      "timestamp": "2024-12-27 22:45:33.221",
+      "event_type": "disconnect",
+      "details": "[2024-12-27 22:45:33.221] [ERROR] DISCONNECTION_EVENT: client=MacBook-Pro-Dev MAC=3C:22:FB:91:AA:07 reason=DISASSOC_LOW_RSSI rssi=-84dBm"
+    },
+    {
+      "timestamp": "2024-12-27 22:45:34.001",
+      "event_type": "disconnect",
+      "details": "[2024-12-27 22:45:34.001] [ERROR] DISCONNECTION_EVENT: client=iPhone-Sarah MAC=A4:83:E7:2F:11:B9 reason=DISASSOC_LOW_RSSI rssi=-81dBm"
+    },
+    {
+      "timestamp": "2024-12-27 23:22:11.447",
+      "event_type": "wpa3_failure",
+      "details": "[2024-12-27 23:22:11.447] [INFO]   WPA3 handshake failures: 9"
+    },
+    {
+      "timestamp": "2024-12-27 23:22:11.448",
+      "event_type": "channel_switch",
+      "details": "[2024-12-27 23:22:11.448] [INFO]   Channel switches: 4"
+    }
+  ],
+  "count": 35
+}

@@ -1,0 +1,61 @@
+{
+  "overall_avg_rssi_dbm": -73.86153846153846,
+  "overall_median_rssi_dbm": -74.0,
+  "channel_usage": [
+    {
+      "band": "2.4GHz",
+      "channel": 6,
+      "avg_util": 73.64516129032258,
+      "samples": 31,
+      "avg_rssi": -77.45161290322581,
+      "avg_snr": 11.32258064516129
+    },
+    {
+      "band": "5GHz",
+      "channel": 36,
+      "avg_util": 48.4,
+      "samples": 10,
+      "avg_rssi": -69.6,
+      "avg_snr": 25.0
+    },
+    {
+      "band": "5GHz",
+      "channel": 44,
+      "avg_util": 43.0,
+      "samples": 3,
+      "avg_rssi": -67.33333333333333,
+      "avg_snr": 28.0
+    },
+    {
+      "band": "5GHz",
+      "channel": 149,
+      "avg_util": 50.54545454545455,
+      "samples": 11,
+      "avg_rssi": -70.18181818181819,
+      "avg_snr": 23.727272727272727
+    },
+    {
+      "band": "5GHz",
+      "channel": 157,
+      "avg_util": 55.3,
+      "samples": 10,
+      "avg_rssi": -73.0,
+      "avg_snr": 20.6
+    }
+  ],
+  "device_trends": [
+    {
+      "device_mac": "3C:22:FB:91:AA:07",
+      "band": "5GHz",
+      "channel": 36,
+      "rssi_trend_db_per_sec": -0.000666666666549802,
+      "rssi_min_dbm": -67.0,
+      "rssi_max_dbm": -64.0,
+      "snr_avg_db": 30.2,
+      "util_avg_pct": 41.6,
+      "retry_avg_pct": 2.3200000000000003,
+      "packet_loss_avg_pct": 0.096
+    }
+  ],
+  "degradation_flags": []
+}

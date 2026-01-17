@@ -1,0 +1,6 @@
+{
+  "records": [
+    {"device_mac":"3C:22:FB:91:AA:07","device_name":"MacBook-Pro-Dev","band":"5GHz","channel":157,"reason_description":"DISASSOC_LOW_RSSI","iforest_score":0.1911408649076176,"cluster_label":-1}
+  ],
+  "model_info": {"feature_names":["duration_sec","rssi_at_event","util_avg_pct","retry_avg_pct","packet_loss_avg_pct","snr_avg_db"],"dbscan_params":{"eps":0.8,"min_samples":3}}
+}
